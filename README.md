@@ -5,6 +5,7 @@ Only signed in users can search the application movies and series database.
 User can search movies and series and see details for searched specific movie / series.
 Singed in users initials are shown on the navbar. 
 The user also can sign out the app, and be redirected to the sign in page. 
+Firebase deployed https://movies-search-db.web.app/
 
 
 # Getting Started with Create React App
