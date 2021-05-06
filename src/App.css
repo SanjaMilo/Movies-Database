@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula&display=swap');
+
+html, body {
+    margin: 0;
+    font-family: 'Khula', sans-serif;
+    position: relative;
+    color: #252525;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.bg-red {
+    background-color: #dd2b4f;
+}
+
+.bg-grey {
+    background-color: #c0c0c0;
+}
+
+.colored-text {
+    color: #dd2b4f;
+}
+
+.colored-text:hover {
+    color: #dd2b4f;
+}
+
+.shadow {
+    box-shadow: 0 0 10px 1px #252525;
+}
+
+.fa-imdb {
+    color: #ffffff;
+}
+
+.fa-video{
+    color: #ffffff;
+}
+
+.fa-react {
+    color: #00FA9A;
+}
+
+.input-field {
+    text-align: center;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+/* _________________________________________________________________________________________ */
+
+.Home {
+    height: 80vh;
+}
+
+.MoviesList {
+    min-height: 80vh;
+}
+
+.Loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Loader img {
+    width: 400px; 
+    margin: auto; 
+    display: block;
+}
+
+
+

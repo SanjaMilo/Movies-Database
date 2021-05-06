@@ -1,0 +1,43 @@
+.MoviesSearched {
+    padding: 3% 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.MoviesSearched .title-list {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #252525;
+    background-color: #c0c0c0;
+    padding: 2rem;
+    margin: 0 20px 20px 20px;
+    box-shadow: inset 0 0 15px 5px #ffffff;
+}
+
+ /* __________________________________________________________________________________________________ */
+
+ @media only screen and (max-width: 1000px) {
+    .MoviesSearched .title-list {
+        font-size: 2rem;
+        letter-spacing: 7px;
+    }
+ }
+
+ @media only screen and (max-width: 768px) {
+    .MoviesSearched .title-list {
+        font-size: 1.5rem;
+        letter-spacing: 5px;
+        margin: 20px;
+    }
+ }
+
+ @media only screen and (max-width: 550px) {
+    .MoviesSearched .title-list {
+        padding: 1.5rem;
+    }
+ }

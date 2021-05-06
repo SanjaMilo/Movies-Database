@@ -1,0 +1,31 @@
+.SignIn, .SignUp {
+    height: 80vh;  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.SignIn label, .SignUp label{
+    font-style: italic;
+}
+
+.sign-form {
+    box-shadow: #c0c0c0;
+    box-shadow: inset 0 0 15px 5px #c0c0c0;
+    width: 70%; 
+    padding: 2% 7%;
+    border-radius: 10px; 
+}
+
+.sign-form input:focus, .sign-form input:hover {
+    outline: none;
+    border-color: #252525;
+    box-shadow: 0 0 10px 1px #c0c0c0;
+}
+
+.error-text {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}

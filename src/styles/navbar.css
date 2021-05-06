@@ -1,0 +1,159 @@
+.Navbar {
+    position: relative;
+}
+
+.navbar-brand img {
+    width: 200px;
+    height: auto;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.navbar-nav {
+    display: flex;
+}
+
+div.nav-collapse {
+    display: none;
+}
+
+button.nav-toggler {
+   display: none;
+   background-color: transparent;
+   border: 1px solid #252525;
+   border-radius: 3px;
+   margin-right: 2rem;
+}
+
+.fa-bars {
+    padding: 8px;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.nav-link {
+    padding: 1rem;
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+}
+
+.nav-link:hover {
+    background-color: #f34064;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    margin: 0 2rem;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item {
+    margin-right: 2rem;
+}
+
+.btn-round {
+    padding: 1rem !important;
+    border-radius: 60px;
+    background-color: #f34064;
+    color: #ffffff;
+}
+
+  /* __________________________________________________________________________________________________ */
+
+@media only screen and (max-width: 1100px){
+    .navbar-brand img {
+        width: 180px;
+    }
+
+    .nav-item {
+        margin-right: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar-nav .nav-link {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    button.nav-toggler {
+        display: block;
+    }
+
+    .navbar-nav {
+        display: none !important;
+    }
+
+    div.nav-collapse {
+        display: none;   /* toggle: block, none */
+        position: absolute;
+        top: 13vh;
+        right: 1.5rem;
+        background-image: linear-gradient(rgba(199, 27, 84, 0.7), rgba(0,0,0,0.7));
+        padding: 1rem;
+        border-radius: 7px;
+        z-index: 10;
+    }
+
+    ul.navbar-nav-collapsed {
+        padding-left: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .nav-item {
+        padding: 0.5rem;
+        border-bottom: 1px solid #dd2b4f;
+        margin-right: 0;
+    }
+
+    .nav-link {
+        width: fit-content;
+    }
+
+    .navbar-nav {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .navbar-brand {
+        margin: 0 0.5rem;
+    }
+
+    button.nav-toggler {
+        margin-right: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 330px ) {
+    .navbar-brand img {
+        width: 130px;
+    }
+
+    .fa-bars {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 250px ) {
+    .navbar-brand img {
+        width: 110px;
+    }
+
+    .fa-bars {
+        font-size: 0.8rem;
+    }
+}
